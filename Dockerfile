@@ -2,13 +2,17 @@ FROM node:18-alpine AS web-builder
 
 WORKDIR /synctv-web
 
-COPY ./synctv-web/ ./
+# 首先复制 package files 以便更好地利用 Docker 缓存
+COPY synctv-web/package*.json ./
 
 RUN npm ci || npm install
 
+# 然后复制其他源文件
+COPY synctv-web/ ./
+
 RUN npm run build
 
-FROM golang:1.23-alpine AS builder
+FROM golang:1.24-alpine AS builder
 
 ARG VERSION
 

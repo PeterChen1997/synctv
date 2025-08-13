@@ -1,6 +1,6 @@
 module github.com/synctv-org/synctv
 
-go 1.23
+go 1.24
 
 replace github.com/synctv-org/vendors => ./vendors
 
