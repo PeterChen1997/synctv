@@ -2,6 +2,8 @@ module github.com/synctv-org/synctv
 
 go 1.24.4
 
+toolchain go1.24.6
+
 replace github.com/synctv-org/vendors => ./vendors
 
 require (
