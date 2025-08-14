@@ -23,6 +23,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.http.routers.synctv-app.rule=Host(`m.hweb.peterchen97.cn`)
+
       - "traefik.http.services.synctv.loadbalancer.server.port=8080"
       - "traefik.docker.network=dokploy-network"
 
