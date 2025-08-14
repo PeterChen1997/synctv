@@ -1,16 +1,26 @@
-version: '3.3'
 services:
   synctv:
-    image: 'synctvorg/synctv:latest'
+    image: synctvorg/synctv:latest
     container_name: synctv
-    restart: unless-stopped
-    ports:
-      - '8080:8080/tcp'
-      - '8080:8080/udp'
-    volumes:
-      - /opt/synctv:/root/.synctv
+    restart: always
     environment:
       - PUID=0
       - PGID=0
       - UMASK=022
       - TZ=Asia/Shanghai
+    volumes:
+      - "../files/synctv/data:/root/.synctv"
+    expose:
+      - 8080
+    networks:
+      - dokploy-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+networks:
+  dokploy-network:
+    external: true
