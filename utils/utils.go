@@ -18,7 +18,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/synctv-org/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/cmd/flags"
 	"github.com/zijiren233/go-colorable"
 	"github.com/zijiren233/stream"
 	yamlcomment "github.com/zijiren233/yaml-comment"

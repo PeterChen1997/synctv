@@ -1,8 +1,8 @@
-module github.com/synctv-org/synctv
+module github.com/PeterChen1997/synctv
 
 go 1.24
 
-replace github.com/synctv-org/vendors => ./vendors
+replace github.com/PeterChen1997/vendors => ./vendors
 
 require (
 	github.com/Boostport/mjml-go v0.15.0
@@ -35,7 +35,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/soheilhy/cmux v0.1.5
 	github.com/spf13/cobra v1.9.1
-	github.com/synctv-org/vendors v0.8.8
+	github.com/PeterChen1997/vendors v0.8.8
 	github.com/ulule/limiter/v3 v3.11.2
 	github.com/zencoder/go-dash/v3 v3.0.3
 	github.com/zijiren233/gencontainer v0.0.0-20250117072502-9e882446f52f

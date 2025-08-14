@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/synctv-org/vendors/api/alist"
-	alistService "github.com/synctv-org/vendors/service/alist"
+	"github.com/PeterChen1997/vendors/api/alist"
+	alistService "github.com/PeterChen1997/vendors/service/alist"
 	"google.golang.org/grpc"
 )
 

@@ -3,8 +3,8 @@ package root
 import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/synctv-org/synctv/internal/bootstrap"
-	"github.com/synctv-org/synctv/internal/db"
+	"github.com/PeterChen1997/synctv/internal/bootstrap"
+	"github.com/PeterChen1997/synctv/internal/db"
 )
 
 var ShowCmd = &cobra.Command{

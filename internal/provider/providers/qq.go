@@ -7,7 +7,7 @@ import (
 	"net/url"
 
 	json "github.com/json-iterator/go"
-	"github.com/synctv-org/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider"
 	"github.com/zijiren233/go-uhc"
 	"golang.org/x/oauth2"
 )

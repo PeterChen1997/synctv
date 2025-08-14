@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/synctv-org/synctv/internal/bootstrap"
-	"github.com/synctv-org/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/internal/bootstrap"
+	"github.com/PeterChen1997/synctv/internal/settings"
 )
 
 var SetCmd = &cobra.Command{

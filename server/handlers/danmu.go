@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/server/handlers/vendors"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/server/model"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/server/model"
 )
 
 func StreamDanmu(ctx *gin.Context) {

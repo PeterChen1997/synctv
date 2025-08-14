@@ -5,12 +5,12 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/internal/db"
-	"github.com/synctv-org/synctv/internal/vendor"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/server/model"
-	"github.com/synctv-org/synctv/utils"
-	"github.com/synctv-org/vendors/api/bilibili"
+	"github.com/PeterChen1997/synctv/internal/db"
+	"github.com/PeterChen1997/synctv/internal/vendor"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/server/model"
+	"github.com/PeterChen1997/synctv/utils"
+	"github.com/PeterChen1997/vendors/api/bilibili"
 )
 
 type BilibiliMeResp = model.VendorMeResp[*bilibili.UserInfoResp]

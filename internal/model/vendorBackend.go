@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/utils"
 	"github.com/zijiren233/stream"
 	"gorm.io/gorm"
 )

@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/internal/conf"
-	"github.com/synctv-org/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/internal/model"
 	"gorm.io/gorm"
 )
 

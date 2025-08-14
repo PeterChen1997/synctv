@@ -2,13 +2,9 @@ FROM node:18-alpine AS web-builder
 
 WORKDIR /synctv-web
 
-# 首先复制 package files 以便更好地利用 Docker 缓存
-COPY synctv-web/package*.json ./
+COPY synctv-web/ ./
 
 RUN npm ci || npm install
-
-# 然后复制其他源文件
-COPY synctv-web/ ./
 
 RUN npm run build
 

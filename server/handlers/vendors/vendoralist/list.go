@@ -8,13 +8,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	json "github.com/json-iterator/go"
-	"github.com/synctv-org/synctv/internal/db"
-	dbModel "github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/vendor"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/server/model"
-	"github.com/synctv-org/synctv/utils"
-	"github.com/synctv-org/vendors/api/alist"
+	"github.com/PeterChen1997/synctv/internal/db"
+	dbModel "github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/vendor"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/server/model"
+	"github.com/PeterChen1997/synctv/utils"
+	"github.com/PeterChen1997/vendors/api/alist"
 	"gorm.io/gorm"
 )
 

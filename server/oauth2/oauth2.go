@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/internal/bootstrap"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/server/model"
+	"github.com/PeterChen1997/synctv/internal/bootstrap"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/server/model"
 )
 
 func OAuth2EnabledAPI(ctx *gin.Context) {

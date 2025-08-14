@@ -2,7 +2,7 @@ package auth
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/server/middlewares"
 )
 
 func Init(e *gin.Engine) {

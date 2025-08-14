@@ -8,13 +8,13 @@ import (
 	"slices"
 
 	"github.com/gin-gonic/gin"
-	dbModel "github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/op"
-	"github.com/synctv-org/synctv/internal/vendor"
-	"github.com/synctv-org/synctv/server/handlers/vendors/vendoralist"
-	"github.com/synctv-org/synctv/server/handlers/vendors/vendorbilibili"
-	"github.com/synctv-org/synctv/server/handlers/vendors/vendoremby"
-	"github.com/synctv-org/synctv/server/model"
+	dbModel "github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/op"
+	"github.com/PeterChen1997/synctv/internal/vendor"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors/vendoralist"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors/vendorbilibili"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors/vendoremby"
+	"github.com/PeterChen1997/synctv/server/model"
 )
 
 func Backends(ctx *gin.Context) {

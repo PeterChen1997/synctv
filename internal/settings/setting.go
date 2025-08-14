@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	json "github.com/json-iterator/go"
-	"github.com/synctv-org/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/model"
 	"github.com/zijiren233/gencontainer/heap"
 )
 

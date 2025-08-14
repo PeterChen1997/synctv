@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/synctv-org/synctv/internal/db"
-	"github.com/synctv-org/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/db"
+	"github.com/PeterChen1997/synctv/internal/model"
 	"github.com/zijiren233/gencontainer/rwmap"
 	rtmps "github.com/zijiren233/livelib/server"
 	"gorm.io/gorm"

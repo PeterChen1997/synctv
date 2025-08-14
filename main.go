@@ -1,6 +1,6 @@
 package main
 
-import "github.com/synctv-org/synctv/cmd"
+import "github.com/PeterChen1997/synctv/cmd"
 
 func main() {
 	cmd.Execute()

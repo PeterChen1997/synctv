@@ -8,8 +8,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/public"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/public"
 )
 
 func Init(e *gin.Engine) {

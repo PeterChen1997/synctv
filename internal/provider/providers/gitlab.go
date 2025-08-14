@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/synctv-org/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/gitlab"
 )

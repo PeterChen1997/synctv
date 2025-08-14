@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/synctv-org/synctv/internal/bootstrap"
-	"github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/internal/bootstrap"
+	"github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/settings"
 	"gopkg.in/yaml.v3"
 )
 

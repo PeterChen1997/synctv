@@ -3,7 +3,7 @@ package bootstrap
 import (
 	"context"
 
-	"github.com/synctv-org/synctv/internal/vendor"
+	"github.com/PeterChen1997/synctv/internal/vendor"
 )
 
 func InitVendorBackend(ctx context.Context) error {

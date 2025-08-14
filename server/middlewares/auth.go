@@ -8,11 +8,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/synctv-org/synctv/internal/conf"
-	dbModel "github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/op"
-	"github.com/synctv-org/synctv/internal/settings"
-	"github.com/synctv-org/synctv/server/model"
+	"github.com/PeterChen1997/synctv/internal/conf"
+	dbModel "github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/op"
+	"github.com/PeterChen1997/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/server/model"
 	"github.com/zijiren233/gencontainer/synccache"
 	"github.com/zijiren233/stream"
 )

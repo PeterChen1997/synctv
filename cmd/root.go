@@ -12,19 +12,19 @@ import (
 	"github.com/mitchellh/go-homedir"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/synctv-org/synctv/cmd/admin"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/cmd/root"
-	"github.com/synctv-org/synctv/cmd/setting"
-	"github.com/synctv-org/synctv/cmd/user"
-	"github.com/synctv-org/synctv/internal/version"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/cmd/admin"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/cmd/root"
+	"github.com/PeterChen1997/synctv/cmd/setting"
+	"github.com/PeterChen1997/synctv/cmd/user"
+	"github.com/PeterChen1997/synctv/internal/version"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 var RootCmd = &cobra.Command{
 	Use:   "synctv",
 	Short: "synctv",
-	Long:  `synctv https://github.com/synctv-org/synctv`,
+	Long:  `synctv https://github.com/PeterChen1997/synctv`,
 	PersistentPreRun: func(_ *cobra.Command, _ []string) {
 		prefix := flags.EnvPrefix
 		if !flags.SkipEnvFlag {

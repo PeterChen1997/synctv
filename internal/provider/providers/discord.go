@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	json "github.com/json-iterator/go"
-	"github.com/synctv-org/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider"
 	"golang.org/x/oauth2"
 )
 

@@ -10,12 +10,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/soheilhy/cmux"
 	"github.com/spf13/cobra"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/internal/bootstrap"
-	"github.com/synctv-org/synctv/internal/conf"
-	"github.com/synctv-org/synctv/internal/rtmp"
-	sysnotify "github.com/synctv-org/synctv/internal/sysnotify"
-	"github.com/synctv-org/synctv/server"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/internal/bootstrap"
+	"github.com/PeterChen1997/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/internal/rtmp"
+	sysnotify "github.com/PeterChen1997/synctv/internal/sysnotify"
+	"github.com/PeterChen1997/synctv/server"
 )
 
 var ServerCmd = &cobra.Command{

@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/internal/db"
-	dbModel "github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/server/model"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/internal/db"
+	dbModel "github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/server/model"
+	"github.com/PeterChen1997/synctv/utils"
 	"gorm.io/gorm"
 )
 

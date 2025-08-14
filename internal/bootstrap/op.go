@@ -3,7 +3,7 @@ package bootstrap
 import (
 	"context"
 
-	"github.com/synctv-org/synctv/internal/op"
+	"github.com/PeterChen1997/synctv/internal/op"
 )
 
 func InitOp(_ context.Context) error {

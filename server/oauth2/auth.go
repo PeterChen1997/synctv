@@ -7,16 +7,16 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/internal/bootstrap"
-	"github.com/synctv-org/synctv/internal/db"
-	dbModel "github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/op"
-	"github.com/synctv-org/synctv/internal/provider"
-	"github.com/synctv-org/synctv/internal/provider/providers"
-	"github.com/synctv-org/synctv/internal/settings"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/server/model"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/internal/bootstrap"
+	"github.com/PeterChen1997/synctv/internal/db"
+	dbModel "github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/op"
+	"github.com/PeterChen1997/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider/providers"
+	"github.com/PeterChen1997/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/server/model"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 // GET

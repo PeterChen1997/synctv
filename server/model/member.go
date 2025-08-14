@@ -3,7 +3,7 @@ package model
 import (
 	"github.com/gin-gonic/gin"
 	json "github.com/json-iterator/go"
-	dbModel "github.com/synctv-org/synctv/internal/model"
+	dbModel "github.com/PeterChen1997/synctv/internal/model"
 )
 
 type RoomMembersResp struct {

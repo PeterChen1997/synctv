@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/synctv-org/vendors/api/emby"
-	embyService "github.com/synctv-org/vendors/service/emby"
+	"github.com/PeterChen1997/vendors/api/emby"
+	embyService "github.com/PeterChen1997/vendors/service/emby"
 	"google.golang.org/grpc"
 )
 

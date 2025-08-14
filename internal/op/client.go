@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
-	"github.com/synctv-org/synctv/internal/model"
-	pb "github.com/synctv-org/synctv/proto/message"
+	"github.com/PeterChen1997/synctv/internal/model"
+	pb "github.com/PeterChen1997/synctv/proto/message"
 )
 
 type Client struct {

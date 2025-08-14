@@ -12,11 +12,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/internal/conf"
-	"github.com/synctv-org/synctv/internal/settings"
-	"github.com/synctv-org/synctv/server/model"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/server/model"
+	"github.com/PeterChen1997/synctv/utils"
 	"github.com/zijiren233/go-uhc"
 )
 

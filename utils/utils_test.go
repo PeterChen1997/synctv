@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 func TestGetPageItems(t *testing.T) {

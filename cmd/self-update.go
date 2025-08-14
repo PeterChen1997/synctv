@@ -5,14 +5,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/internal/bootstrap"
-	"github.com/synctv-org/synctv/internal/version"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/internal/bootstrap"
+	"github.com/PeterChen1997/synctv/internal/version"
 )
 
 const SelfUpdateLong = `self-update command will update synctv-server binary to latest version.
 
-Version check in: https://github.com/synctv-org/synctv/releases/latest
+Version check in: https://github.com/PeterChen1997/synctv/releases/latest
 
 If use '--dev' flag, will update to latest dev version always.`
 

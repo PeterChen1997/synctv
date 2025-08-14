@@ -9,10 +9,10 @@ import (
 
 	"github.com/google/go-github/v56/github"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/settings"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 const (

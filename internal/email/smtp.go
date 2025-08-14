@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/settings"
-	"github.com/synctv-org/synctv/utils/smtp"
+	"github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/utils/smtp"
 )
 
 var (

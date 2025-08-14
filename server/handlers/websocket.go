@@ -12,11 +12,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/op"
-	pb "github.com/synctv-org/synctv/proto/message"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/op"
+	pb "github.com/PeterChen1997/synctv/proto/message"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/utils"
 	"google.golang.org/protobuf/proto"
 )
 

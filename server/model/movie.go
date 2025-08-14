@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	json "github.com/json-iterator/go"
-	"github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 var (

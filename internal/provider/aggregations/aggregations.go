@@ -1,7 +1,7 @@
 package aggregations
 
 import (
-	"github.com/synctv-org/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider"
 )
 
 var allAggregation []provider.AggregationProviderInterface

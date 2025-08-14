@@ -11,9 +11,9 @@ import (
 
 	"github.com/natefinch/lumberjack"
 	"github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/internal/conf"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/utils"
 	"github.com/zijiren233/go-colorable"
 )
 
@@ -28,7 +28,7 @@ func setLog(l *logrus.Logger) {
 }
 
 var logCallerIgnoreFuncs = map[string]struct{}{
-	"github.com/synctv-org/synctv/server/middlewares.logColor": {},
+	"github.com/PeterChen1997/synctv/server/middlewares.logColor": {},
 }
 
 func InitLog(_ context.Context) (err error) {

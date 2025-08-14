@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/synctv-org/synctv/internal/provider"
-	"github.com/synctv-org/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/settings"
 	"golang.org/x/oauth2"
 )
 

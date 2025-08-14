@@ -5,11 +5,11 @@ import (
 	"strings"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/internal/conf"
-	"github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/utils"
 	// import fastjson serializer
-	_ "github.com/synctv-org/synctv/utils/fastJSONSerializer"
+	_ "github.com/PeterChen1997/synctv/utils/fastJSONSerializer"
 	"gorm.io/gorm"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/synctv-org/synctv/internal/db"
-	"github.com/synctv-org/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/db"
+	"github.com/PeterChen1997/synctv/internal/model"
 )
 
 type StringSetting interface {

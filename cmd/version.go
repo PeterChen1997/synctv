@@ -6,7 +6,7 @@ import (
 	"runtime/debug"
 
 	"github.com/spf13/cobra"
-	"github.com/synctv-org/synctv/internal/version"
+	"github.com/PeterChen1997/synctv/internal/version"
 )
 
 //nolint:forbidigo

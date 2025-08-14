@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/utils"
 	"github.com/zijiren233/go-uhc"
 )
 

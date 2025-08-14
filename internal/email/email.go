@@ -12,10 +12,10 @@ import (
 
 	"github.com/Boostport/mjml-go"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/internal/email/emailtemplate"
-	"github.com/synctv-org/synctv/internal/model"
-	"github.com/synctv-org/synctv/internal/settings"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/internal/email/emailtemplate"
+	"github.com/PeterChen1997/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/utils"
 	"github.com/zijiren233/gencontainer/synccache"
 	"github.com/zijiren233/stream"
 )

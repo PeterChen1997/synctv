@@ -3,7 +3,7 @@ package db
 import (
 	"errors"
 
-	"github.com/synctv-org/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/model"
 	"gorm.io/gorm"
 )
 

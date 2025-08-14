@@ -9,7 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/server/model"
+	"github.com/PeterChen1997/synctv/server/model"
 )
 
 var fieldsPool = sync.Pool{

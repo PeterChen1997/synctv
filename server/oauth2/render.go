@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider"
 	"github.com/zijiren233/gencontainer/synccache"
 )
 

@@ -33,7 +33,7 @@ function initDep() {
         return 1
     fi
 
-    addLDFLAGS "-X 'github.com/synctv-org/synctv/internal/version.Version=${VERSION}'"
-    addLDFLAGS "-X 'github.com/synctv-org/synctv/internal/version.GitCommit=${git_commit}'"
+    addLDFLAGS "-X 'github.com/PeterChen1997/synctv/internal/version.Version=${VERSION}'"
+addLDFLAGS "-X 'github.com/PeterChen1997/synctv/internal/version.GitCommit=${git_commit}'"
     addTags "jsoniter"
 }

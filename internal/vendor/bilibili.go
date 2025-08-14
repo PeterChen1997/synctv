@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/synctv-org/vendors/api/bilibili"
-	bilibiliService "github.com/synctv-org/vendors/service/bilibili"
+	"github.com/PeterChen1997/vendors/api/bilibili"
+	bilibiliService "github.com/PeterChen1997/vendors/service/bilibili"
 	"google.golang.org/grpc"
 )
 

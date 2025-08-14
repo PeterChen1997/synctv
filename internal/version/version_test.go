@@ -3,7 +3,7 @@ package version_test
 import (
 	"testing"
 
-	"github.com/synctv-org/synctv/internal/version"
+	"github.com/PeterChen1997/synctv/internal/version"
 )
 
 func TestCheckLatest(t *testing.T) {

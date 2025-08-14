@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/synctv-org/synctv/internal/provider"
-	"github.com/synctv-org/synctv/internal/provider/plugins"
+	"github.com/PeterChen1997/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider/plugins"
 	"golang.org/x/oauth2"
 )
 

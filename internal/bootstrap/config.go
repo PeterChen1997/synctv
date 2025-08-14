@@ -8,9 +8,9 @@ import (
 
 	"github.com/caarlos0/env/v9"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/cmd/flags"
-	"github.com/synctv-org/synctv/internal/conf"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/cmd/flags"
+	"github.com/PeterChen1997/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 func InitDefaultConfig(_ context.Context) error {

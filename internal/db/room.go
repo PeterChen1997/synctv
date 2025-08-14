@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/synctv-org/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/model"
 	"github.com/zijiren233/stream"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"

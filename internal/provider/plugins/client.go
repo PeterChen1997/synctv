@@ -3,8 +3,8 @@ package plugins
 import (
 	"context"
 
-	"github.com/synctv-org/synctv/internal/provider"
-	providerpb "github.com/synctv-org/synctv/proto/provider"
+	"github.com/PeterChen1997/synctv/internal/provider"
+	providerpb "github.com/PeterChen1997/synctv/proto/provider"
 )
 
 type GRPCClient struct{ client providerpb.Oauth2PluginClient }

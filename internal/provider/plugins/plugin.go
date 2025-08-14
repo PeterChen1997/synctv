@@ -7,10 +7,10 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
-	"github.com/synctv-org/synctv/internal/provider"
-	"github.com/synctv-org/synctv/internal/provider/providers"
-	"github.com/synctv-org/synctv/internal/sysnotify"
-	providerpb "github.com/synctv-org/synctv/proto/provider"
+	"github.com/PeterChen1997/synctv/internal/provider"
+	"github.com/PeterChen1997/synctv/internal/provider/providers"
+	"github.com/PeterChen1997/synctv/internal/sysnotify"
+	providerpb "github.com/PeterChen1997/synctv/proto/provider"
 	"google.golang.org/grpc"
 )
 

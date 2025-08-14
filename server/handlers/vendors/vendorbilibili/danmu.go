@@ -17,9 +17,9 @@ import (
 	"github.com/gorilla/websocket"
 	json "github.com/json-iterator/go"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/internal/vendor"
-	"github.com/synctv-org/synctv/utils"
-	"github.com/synctv-org/vendors/api/bilibili"
+	"github.com/PeterChen1997/synctv/internal/vendor"
+	"github.com/PeterChen1997/synctv/utils"
+	"github.com/PeterChen1997/vendors/api/bilibili"
 )
 
 type command uint32

@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/internal/conf"
 	limiter "github.com/ulule/limiter/v3"
 )
 

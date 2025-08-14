@@ -29,8 +29,8 @@ import (
 	jwtv5 "github.com/golang-jwt/jwt/v5"
 	"github.com/hashicorp/consul/api"
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/internal/db"
-	"github.com/synctv-org/synctv/internal/model"
+	"github.com/PeterChen1997/synctv/internal/db"
+	"github.com/PeterChen1997/synctv/internal/model"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 )

@@ -2,12 +2,12 @@ package handlers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/synctv-org/synctv/server/handlers/vendors"
-	"github.com/synctv-org/synctv/server/handlers/vendors/vendoralist"
-	"github.com/synctv-org/synctv/server/handlers/vendors/vendorbilibili"
-	"github.com/synctv-org/synctv/server/handlers/vendors/vendoremby"
-	"github.com/synctv-org/synctv/server/middlewares"
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors/vendoralist"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors/vendorbilibili"
+	"github.com/PeterChen1997/synctv/server/handlers/vendors/vendoremby"
+	"github.com/PeterChen1997/synctv/server/middlewares"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 func Init(e *gin.Engine) {

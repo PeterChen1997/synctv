@@ -5,8 +5,8 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	sysnotify "github.com/synctv-org/synctv/internal/sysnotify"
-	"github.com/synctv-org/synctv/internal/version"
+	sysnotify "github.com/PeterChen1997/synctv/internal/sysnotify"
+	"github.com/PeterChen1997/synctv/internal/version"
 )
 
 func InitCheckUpdate(ctx context.Context) error {

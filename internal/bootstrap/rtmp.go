@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/synctv-org/synctv/internal/op"
-	"github.com/synctv-org/synctv/internal/rtmp"
-	"github.com/synctv-org/synctv/internal/settings"
+	"github.com/PeterChen1997/synctv/internal/op"
+	"github.com/PeterChen1997/synctv/internal/rtmp"
+	"github.com/PeterChen1997/synctv/internal/settings"
 	rtmps "github.com/zijiren233/livelib/server"
 )
 

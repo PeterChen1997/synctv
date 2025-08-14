@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/synctv-org/synctv/utils"
+	"github.com/PeterChen1997/synctv/utils"
 )
 
 type JwtConfig struct {

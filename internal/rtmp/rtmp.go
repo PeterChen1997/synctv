@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/synctv-org/synctv/internal/conf"
+	"github.com/PeterChen1997/synctv/internal/conf"
 	rtmps "github.com/zijiren233/livelib/server"
 	"github.com/zijiren233/stream"
 )
