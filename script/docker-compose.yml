@@ -14,6 +14,17 @@ services:
       - 8080
     networks:
       - dokploy-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.synctv-app.rule=Host(`m.hweb.peterchen97.cn`)
+      - traefik.http.routers.synctv-app.entrypoints=web
+      - traefik.http.services.synctv-app.loadbalancer.server.port=8080
 
 networks:
   dokploy-network:
